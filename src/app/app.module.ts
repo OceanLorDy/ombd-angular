@@ -5,16 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HttpClientModule } from '@angular/common/http';
-import { NewsComponent } from './pages/news/news/news.component';
-import { MainComponent } from './main/main.component';
-import { NavbarComponent } from './main/navbar/navbar/navbar.component';
+import { FavoriteComponent } from './pages/favorite/favorite.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewsComponent,
-    MainComponent,
-    NavbarComponent
+    FavoriteComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,9 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { NewsComponent } from './pages/news/news/news.component';
+import { FavoriteComponent } from './pages/favorite/favorite.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
-  { path: 'news', component: NewsComponent }
+  {
+    path: '',
+    component: HomeComponent
+  },
+  {
+    path: 'favorite',
+    component: FavoriteComponent
+  }
 ];
 
 @NgModule({
