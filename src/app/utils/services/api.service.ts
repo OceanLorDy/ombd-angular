@@ -9,7 +9,7 @@ export class ApiService {
 
   constructor(private httpClient: HttpClient) { }
 
-  public getNews() {
+  public getMovie() {
     return this.httpClient.get(`https://www.omdbapi.com/?s=leon&apikey=${this.API_KEY}`);
   }
 }

@@ -1,1 +1,16 @@
-<p>home works!</p>
+<div class="row">
+    <div *ngFor="let movie of movies;let i = index" class="column" id="poster">
+        <div class="card text-white bg-dark mb-3">
+            <div class="">{{movie.Title}} ({{movie.Year}})</div>
+            <hr />
+            <div class="container">
+                <h4 class="card-title"></h4>
+                <small>Rating : <b>0</b></small>
+                <img src={{movie.Poster}} id="image" />
+                <hr />
+                <p class="card-text">
+                    <button class="btn btn-primary btn-sm">Favorite</button>
+                </p>
+            </div>
+        </div>
+    </div>
