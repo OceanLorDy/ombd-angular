@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ombd-angular"
+    }
+  },
+  "defaultProject": "ombd-angular",
+  "cli": {
+    "analytics": "67b15b5c-4f98-4eab-8b78-ca46847cfba1"
+  }
 }
